@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_AES_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_AES" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="264.856 ns"></ZoomStartTime>
+      <ZoomEndTime time="521.457 ns"></ZoomEndTime>
+      <Cursor1Time time="144.041 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="243"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_AES/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/plain" type="array">
+      <obj_property name="ElementShortName">plain[127:0]</obj_property>
+      <obj_property name="ObjectShortName">plain[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/cipher" type="array">
+      <obj_property name="ElementShortName">cipher[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cipher[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/giveoutput" type="logic">
+      <obj_property name="ElementShortName">giveoutput</obj_property>
+      <obj_property name="ObjectShortName">giveoutput</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/waitforme" type="logic">
+      <obj_property name="ElementShortName">waitforme</obj_property>
+      <obj_property name="ObjectShortName">waitforme</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/roundCount" type="array">
+      <obj_property name="ElementShortName">roundCount[3:0]</obj_property>
+      <obj_property name="ObjectShortName">roundCount[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/clk_period" type="array">
+      <obj_property name="ElementShortName">clk_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/E0" type="array">
+      <obj_property name="ElementShortName">E0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/E1" type="array">
+      <obj_property name="ElementShortName">E1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/E2" type="array">
+      <obj_property name="ElementShortName">E2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/E3" type="array">
+      <obj_property name="ElementShortName">E3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/A0" type="array">
+      <obj_property name="ElementShortName">A0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/A1" type="array">
+      <obj_property name="ElementShortName">A1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/A2" type="array">
+      <obj_property name="ElementShortName">A2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AES/uut1/A3" type="array">
+      <obj_property name="ElementShortName">A3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A3[31:0]</obj_property>
+   </wvobject>
+</wave_config>
